@@ -19,6 +19,10 @@ namespace APPLICAZIONEPROCESSI
             app.StartInfo.FileName = @"Notepad.exe";
             app.StartInfo.Arguments = @"C:\Users\studenti\Source\Repos\GESTIONE_PROCESSI_Vera\Gestione_Processi_Vera\APPLICAZIONEPROCESSI\FileDiTesto.txt";
             app.Start();
+            app.PriorityClass = ProcessPriorityClass.RealTime;
+            app.WaitForExit();
+            Console.WriteLine("Programma terminato");
+            Console.ReadLine();
         }
     }
 }

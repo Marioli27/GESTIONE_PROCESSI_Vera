@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{644D9D76-F750-4827-9130-13D4AC795D9D}</ProjectGuid>
+    <ProjectGuid>{A6A29E14-2F67-456E-B8A3-09820E123030}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>APPLICAZIONEPROCESSI</RootNamespace>
-    <AssemblyName>APPLICAZIONEPROCESSI</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="\\192.168.5.250\_Condivisa\INF\4 A\Marioli Simone\Tepsit\Gestione_Processi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="FIle\FileDiTesto.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
